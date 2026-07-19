@@ -8,13 +8,11 @@ import re
 import traceback
 import shutil
 from datetime import timedelta
-from dotenv import load_dotenv
 from urllib.parse import urlparse
 
 # ==================================================
 #                    الإعدادات
 # ==================================================
-load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 intents = discord.Intents.default()
